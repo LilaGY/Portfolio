@@ -1,0 +1,29 @@
+.flex-align-center{
+    display: flex;
+    justify-content: center;
+}
+
+.text-align-center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.class1{
+width: 30%;
+height: 8px;
+margin-bottom: 10%;
+background-color: #bf8f00;
+border: none;
+}
+
+.class2{
+    width: 30%;
+    height: 8px;
+    margin-bottom: 2%;
+    background-color: #bf8f00;
+    border: none;
+    }
+
+.no-marge{
+    margin:0;
+}    
