@@ -132,7 +132,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-size: 90%;
+  font-size: 100%;
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
@@ -153,7 +153,6 @@ img::-moz-selection {
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: transparent;
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -606,6 +605,7 @@ section#contact {
   background-color: #212529;
   background-repeat: no-repeat;
   background-position: center;
+  background-size : cover;
 }
 
 section#contact .section-heading {

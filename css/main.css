@@ -27,3 +27,9 @@ border: none;
 .no-marge{
     margin:0;
 }    
+
+.img-logo-contact{
+    width : 20%;
+    height: auto;
+    margin : 5%;
+}

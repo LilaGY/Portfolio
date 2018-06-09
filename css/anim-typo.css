@@ -1,5 +1,6 @@
  /* DEMO-SPECIFIC STYLES */
   .typewriter {
+    max-width: min-content;
     color: #fff;
     font-family: "CircularStd-Book";
     overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -14,6 +15,7 @@
 
   .typewriter2 {
     color: black;
+    max-width: min-content;
     font-family: "CircularStd-Book";
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid #bf8f00; /* The typwriter cursor */
