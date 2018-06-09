@@ -19,7 +19,7 @@
     $mail->Username   = $username;            // username
     $mail->Password   = $password;            // password
 
-    $mail->SetFrom($_POST['email'], $_POST['name']);
+    $mail->SetFrom($_POST['email'], $_POST['name'] . ' (' . $_POST['phone'] . ') ');
 
     $mail->Subject    = "Nouveau message de " . $_POST['name'];
 
